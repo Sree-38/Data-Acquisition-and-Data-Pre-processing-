@@ -36,20 +36,25 @@ The objectives of this project are to:
 # Methodology
 
 The project was carried out using the following methodology:
-1.	Data Collection 
-     Solar generation and weather sensor datasets were collected in CSV format. 
-2.	Data Loading 
-   	 Datasets were imported using the Pandas library. 
-3.	Data Cleaning 
+1.	Data Collection :
+     Solar generation and weather sensor datasets were collected in CSV format.
+  	 
+3.	Data Loading :
+   	 Datasets were imported using the Pandas library.
+  	
+5.	Data Cleaning :
 	   Missing values, duplicates, and inconsistent records were identified and handled. 
-	   Outliers were detected using the IQR method. 
-4.	Data Preprocessing 
+	   Outliers were detected using the IQR method.
+  	
+7.	Data Preprocessing :
 	   Datetime formatting and feature engineering were performed. 
      New features such as hour, day, month, and efficiency were created. 
-     Normalization was applied using MinMaxScaler. 
-5.	Data Visualization 
-     Various plots such as histograms, boxplots, scatter plots, pair plots, and heatmaps were generated using Matplotlib and Seaborn. 
-6.	Statistical Analysis 
+     Normalization was applied using MinMaxScaler.
+  	
+9.	Data Visualization :
+     Various plots such as histograms, boxplots, scatter plots, pair plots, and heatmaps were generated using Matplotlib and Seaborn.
+  	
+11.	Statistical Analysis: 
      Correlation analysis, regression analysis, VIF analysis, residual analysis, and normality testing were performed to understand        variable relationships and model behavior.
 
 ---
