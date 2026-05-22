@@ -25,6 +25,7 @@ Solar power generation is highly dependent on environmental and operational fact
 The main challenge is to preprocess and analyze solar plant generation data effectively in order to obtain meaningful insights into power generation behavior and operational performance. Proper data cleaning and analytical techniques are required to improve dataset quality, identify relationships among variables, and understand the influence of environmental conditions on solar energy generation.
 
 The objectives of this project are to:	
+
 •	improve data quality through preprocessing techniques, 
 
 •	analyze relationships between weather parameters and power generation, 
