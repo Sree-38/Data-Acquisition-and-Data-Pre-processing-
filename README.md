@@ -26,9 +26,13 @@ The main challenge is to preprocess and analyze solar plant generation data effe
 
 The objectives of this project are to:	
 •	improve data quality through preprocessing techniques, 
+
 •	analyze relationships between weather parameters and power generation, 
+
 •	identify important features influencing solar energy output, 
-•	perform visualization and statistical analysis for meaningful insights, 
+
+•	perform visualization and statistical analysis for meaningful insights,
+
 •	understand the operational behavior and efficiency of the solar plant system.
 
 ---
@@ -73,8 +77,6 @@ Contains environmental and weather-related parameters affecting solar power gene
 - Irradiation
 - Ambient temperature
 - Module temperature
-
----
 
 ## Important Attributes
 
