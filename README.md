@@ -7,9 +7,13 @@ A comprehensive data analytics project focused on **data cleaning, preprocessing
 #  Introduction
 
 Solar energy has emerged as one of the most significant renewable energy sources due to its sustainability, eco-friendliness, and ability to reduce dependence on fossil fuels. With the increasing global demand for clean and renewable energy, solar power plants play a crucial role in meeting energy requirements while minimizing environmental impact. Efficient monitoring and analysis of solar power generation systems are essential for improving plant performance, operational efficiency, and energy output.
+
 Solar power generation is influenced by several environmental and operational factors such as irradiation, ambient temperature, module temperature, and weather conditions. Analyzing these parameters helps in understanding power generation patterns and identifying factors that affect plant efficiency. However, raw solar plant datasets often contain missing values, duplicate records, inconsistencies, and outliers that can negatively impact analysis and predictive performance if not properly handled.
+
 Data cleaning and preprocessing are therefore important steps in transforming raw data into a structured and reliable format suitable for analysis. Techniques such as handling missing values, removing duplicates, outlier detection, normalization, and feature engineering improve the quality and usability of the dataset. Visualization and statistical analysis further help in identifying trends, correlations, and relationships among variables.
+
 This project focuses on the preprocessing, visualization, and statistical analysis of solar plant generation data obtained from Kaggle. Various analytical techniques were applied using Python libraries such as Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, and Statsmodels. The project aims to understand the relationship between weather conditions and power generation, improve data quality through preprocessing techniques, and extract meaningful insights from the dataset.
+
 The project also includes feature engineering, correlation analysis, outlier handling, normalization, regression analysis, and multicollinearity analysis to evaluate the influence of different environmental variables on solar power generation. Detailed explanations of the dataset variables and their significance were explicitly provided in the Jupyter Notebook to enhance interpretability and understanding of the analysis process.
 
 ---
@@ -17,7 +21,9 @@ The project also includes feature engineering, correlation analysis, outlier han
 # 🎯 Problem Statement
 
 Solar power generation is highly dependent on environmental and operational factors such as irradiation, ambient temperature, and module temperature. Variations in these parameters directly affect the efficiency and performance of solar photovoltaic systems. In addition, raw solar plant datasets often contain inconsistencies, missing values, duplicate records, and outliers that may reduce the accuracy and reliability of analysis if not properly handled.
+
 The main challenge is to preprocess and analyze solar plant generation data effectively in order to obtain meaningful insights into power generation behavior and operational performance. Proper data cleaning and analytical techniques are required to improve dataset quality, identify relationships among variables, and understand the influence of environmental conditions on solar energy generation.
+
 The objectives of this project are to:	
 •	improve data quality through preprocessing techniques, 
 •	analyze relationships between weather parameters and power generation, 
@@ -162,11 +168,17 @@ These visualizations helped identify:
 # 📈 Conclusion
 
 This project successfully demonstrated the application of data cleaning, preprocessing, visualization, and statistical analysis techniques on solar plant generation data to understand the behavior and performance of solar energy systems. By analyzing both power generation data and weather sensor data, meaningful insights were obtained regarding the influence of environmental conditions on solar power output.
+
 The preprocessing phase significantly improved the quality and reliability of the dataset through handling missing values, removing duplicate records, detecting outliers, performing normalization, and creating meaningful features from datetime variables. These preprocessing techniques ensured that the dataset was structured, consistent, and suitable for further analytical tasks.
+
 The analysis revealed a very strong positive relationship between DC power and AC power generation, indicating efficient energy conversion within the inverter system. Since solar panels initially generate DC power which is later converted into AC power, the observed dependency between these variables aligns with the expected operational behavior of photovoltaic systems. Correlation heatmaps and scatter plots clearly demonstrated this strong association.
+
 The project also showed that irradiation plays a major role in determining solar power output. Higher irradiation levels were directly associated with increased DC and AC power generation, confirming that sunlight intensity is one of the most influential factors affecting solar plant efficiency. Temperature variables such as module temperature and ambient temperature were also found to influence energy generation patterns. While moderate temperature increases supported higher power production due to increased solar exposure, extremely high module temperatures indicated the possibility of slight efficiency reduction in photovoltaic panels.
+
 Graphical analysis using histograms, boxplots, scatter plots, heatmaps, and time-series visualizations helped identify operational trends, distributions, correlations, and outliers within the dataset. The visualizations clearly showed that power generation peaks during daytime hours with maximum solar exposure and that most operational values remain within normal working ranges.
+
 Statistical analysis further validated the graphical findings. Correlation analysis confirmed strong dependencies among irradiation, DC power, and AC power variables. Regression analysis demonstrated that environmental parameters significantly influence solar energy generation, while residual analysis and QQ plots indicated that the regression model performed reasonably well with minimal systematic errors. Additionally, VIF analysis showed acceptable multicollinearity levels among predictor variables, supporting the reliability of the analytical model.
+
 Overall, this project highlights the importance of data preprocessing, visualization, and statistical analysis in extracting valuable insights from renewable energy datasets. The study demonstrates how analytical techniques can be effectively used to improve data quality, understand solar power generation behavior, identify influential environmental factors, and support operational monitoring of solar energy systems. Furthermore, the project showcases the practical application of Python libraries such as Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, and Statsmodels in real-world data analytics and renewable energy analysis.
 
 ---
