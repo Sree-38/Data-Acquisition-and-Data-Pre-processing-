@@ -208,9 +208,8 @@ Overall, the study demonstrates how Python libraries (Pandas, NumPy, Matplotlib,
    https://docs.scipy.org/doc/scipy/
 
 8. Correlation Matrix
-9. 
    https://medium.com/data-science/correlation-matrix-demystified-3ae3405c86c1
-
+   
 ---
 
 
